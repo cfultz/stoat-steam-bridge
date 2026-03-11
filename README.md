@@ -24,7 +24,7 @@ It includes support for both the official Stoat instance and self-hosted instanc
 ## Setup & Deployment
 
 1. Clone this repository to your server:
-   ```bash
+```bash
    git clone [https://github.com/YOUR_USERNAME/stoat-steam-bridge.git](https://github.com/YOUR_USERNAME/stoat-steam-bridge.git)
    cd stoat-steam-bridge
 
