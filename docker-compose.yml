@@ -1,0 +1,7 @@
+services:
+  stoat-steam-bridge:
+    build: .
+    container_name: stoat-steam-bridge
+    restart: unless-stopped
+    env_file:
+      - .env
