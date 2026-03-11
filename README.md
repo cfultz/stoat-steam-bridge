@@ -25,7 +25,7 @@ It includes support for both the official Stoat instance and self-hosted instanc
 
 1. Clone this repository to your server:
 ```bash
-   git clone [https://github.com/YOUR_USERNAME/stoat-steam-bridge.git](https://github.com/YOUR_USERNAME/stoat-steam-bridge.git)
+   git clone https://github.com/cfultz/stoat-steam-bridge.git
    cd stoat-steam-bridge
 
 ```
@@ -40,7 +40,7 @@ cp .env.example .env
 3. Edit the `.env` file with your preferred text editor and add your tokens:
 ```env
 # .env
-STOAT_API_URL=[https://api.stoat.chat/users/@me](https://api.stoat.chat/users/@me)
+STOAT_API_URL=https://api.stoat.chat/users/@me
 STOAT_TOKEN=your_stoat_session_token_here
 STEAM_API_KEY=your_steam_api_key_here
 STEAM_ID=your_steam_id_64_here
